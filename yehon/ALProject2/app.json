@@ -1,32 +1,39 @@
 {
-  "id": "d6dcca8b-6fbc-4870-8038-01b0857d0c8b",
-  "name": "ALProject2",
-  "publisher": "Default Publisher",
-  "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
-  "dependencies": [],
-  "screenshots": [],
-  "platform": "1.0.0.0",
-  "application": "23.0.0.0",
-  "idRanges": [
-    {
-      "from": 50100,
-      "to": 50149
-    }
-  ],
-  "resourceExposurePolicy": {
-    "allowDebugging": true,
-    "allowDownloadingSource": true,
-    "includeSourceInSymbolFile": true
-  },
-  "runtime": "13.0",
-  "features": [
-    "NoImplicitWith"
-  ]
+    "id": "d6dcca8b-6fbc-4870-8038-01b0857d0c8b",
+    "name": "ALProject2",
+    "publisher": "Default Publisher",
+    "version": "1.0.0.0",
+    "brief": "",
+    "description": "",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "",
+    "logo": "",
+    "dependencies": [
+        {
+            "id": "29074f42-3b2f-47d0-91d3-6b5152605fa2",
+            "name": "SMART Core",
+            "publisher": "SMART business LLC",
+            "version": "1.0.0.0"
+        }
+    ],
+    "screenshots": [],
+    "platform": "1.0.0.0",
+    "application": "23.0.0.0",
+    "idRanges": [
+        {
+            "from": 60100,
+            "to": 60149
+        }
+    ],
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": true,
+        "includeSourceInSymbolFile": true
+    },
+    "runtime": "13.0",
+    "features": [
+        "NoImplicitWith"
+    ]
 }
