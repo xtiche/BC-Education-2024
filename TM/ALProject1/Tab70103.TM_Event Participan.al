@@ -20,7 +20,7 @@ table 70103 "TM_Event Participan"
         field(4; "Participant Contact  No."; Code[20])
         {
             Caption = 'Participant Contact  No.';
-            TableRelation =
+            TableRelation = Contact where
         }
         field(5; "Participant Name"; Text[100])
         {

@@ -1,9 +1,10 @@
 page 70102 TM_Event
 {
+    ApplicationArea = All;
     Caption = 'TM_Event';
     PageType = List;
     SourceTable = TM_Event;
-    
+
     layout
     {
         area(Content)

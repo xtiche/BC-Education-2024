@@ -1,5 +1,4 @@
 table 70101 Course
- Course
 {
     Caption = 'Course';
     DataClassification = CustomerContent;
@@ -23,7 +22,7 @@ table 70101 Course
             Caption = 'Instructor Code';
             TableRelation = Resource;
         }
-        field(5; "Instructor Name"; Text[100])
+        field(5; "Instructor Name"; Text[50])
         {
             Caption = 'Instructor Name';
             FieldClass = FlowField;
@@ -33,7 +32,7 @@ table 70101 Course
     }
     keys
     {
-        key(PK; "Code")
+        key(Key1; "Code")
         {
             Clustered = true;
         }

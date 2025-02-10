@@ -3,7 +3,7 @@ page 70104 "Event Participant Subpage"
     Caption = 'Event Participant Subpage';
     PageType = ListPart;
     SourceTable = "TM_Event Participan";
-    
+
     layout
     {
         area(Content)
