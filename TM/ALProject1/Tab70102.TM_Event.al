@@ -37,7 +37,7 @@ table 70102 TM_Event
             CalcFormula = lookup(Resource.Name where(Name = field("Instructor Code")));
             Editable = false;
         }
-        field(7; "No. of Registered  Participants"; Integer)
+        field(7; "No. of Registered Participants"; Integer)
         {
             Caption = 'No. of Registered  Participants';
             FieldClass = FlowField;
@@ -55,7 +55,4 @@ table 70102 TM_Event
             Clustered = true;
         }
         key(Key2; "Event Date")
-            }
-
-    }
-
+      }
