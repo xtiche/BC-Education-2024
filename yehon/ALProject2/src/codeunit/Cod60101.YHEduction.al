@@ -12,7 +12,7 @@ codeunit 60101 "YH Eduction"
     begin
         if Rec."Quantity" < 0 then
             Rec.FieldError("Quantity", 'Quantity cannot be negative');
-
+    end;
     //     VLE.Get(1);
     //     VLE."Vendor No." := 'Vend001';
     //     VLE.Modify();
